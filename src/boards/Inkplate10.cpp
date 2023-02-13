@@ -22,7 +22,7 @@
 #include "../include/defines.h"
 #include "EEPROM.h"
 
-#ifdef ARDUINO_INKPLATE10
+#if defined(ARDUINO_INKPLATE10) || defined(ARDUINO_INKPLATE10V2)
 
 /**
  * @brief       begin function initialize Inkplate object with predefined

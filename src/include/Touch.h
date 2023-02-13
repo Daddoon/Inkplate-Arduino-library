@@ -19,7 +19,7 @@
 #ifndef __TOUCH_H__
 #define __TOUCH_H__
 
-#ifdef ARDUINO_INKPLATE6PLUS
+#if defined(ARDUINO_INKPLATE6PLUS) || defined(ARDUINO_INKPLATE6PLUSV2)
 
 #include "Arduino.h"
 #include "Graphics.h"

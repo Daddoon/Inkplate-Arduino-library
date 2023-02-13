@@ -25,9 +25,9 @@
 #include "../boards/Inkplate6.h"
 #elif ARDUINO_INKPLATE5
 #include "../boards/Inkplate5.h"
-#elif ARDUINO_INKPLATE10
+#elif defined(ARDUINO_INKPLATE10) || defined(ARDUINO_INKPLATE10V2)
 #include "../boards/Inkplate10.h"
-#elif ARDUINO_INKPLATE6PLUS
+#elif defined(ARDUINO_INKPLATE6PLUS) || defined(ARDUINO_INKPLATE6PLUSV2)
 #include "../boards/Inkplate6plus.h"
 #elif ARDUINO_INKPLATECOLOR
 #include "../boards/Inkplate6Color.h"
